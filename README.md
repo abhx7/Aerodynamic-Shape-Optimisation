@@ -1,5 +1,5 @@
 # Aerodynamic Shape Optimisation
-This repository contains an example case for shape optimisation using Eilmer as the CFD solver and the python package pyOptsparse for the optimisation process. The flow simulation results, meshes, lua files for geometry generation and flow configurations as well as domain sketche is included.
+This repository contains an example case for shape optimisation using Eilmer as the CFD solver and the python package pyOptsparse for the optimisation process. The flow simulation results and meshes of the final optimisation cycle, lua files for geometry generation and flow configurations as well as domain sketches is included.
 
 ### Prerequisites
 We will be using [Eilmer](https://github.com/gdtk-uq/gdtk?tab=readme-ov-file) a well known hypersonic CFD solver to simulate the flow and PSQP from [PyOptsparse](https://github.com/mdolab/pyoptsparse/blob/main/README.md) to run the optimisation cycles. Make sure to install the prerequisites software for Eilmer from gdtk before installing it.
@@ -66,4 +66,4 @@ SteadyStateSolver{
 ### Optimiser
 
 ## Final Result
-![Final Optimised Inlet]([https://myoctocat.com/assets/images/base-octocat.svg](https://github.com/abhx7/Aerodynamic-Shape-Optimisation/blob/main/Hypersonic%20Inlet%20-%201%20Parameter/rho-plot.png))
+![Final Optimised Inlet](https://github.com/abhx7/Aerodynamic-Shape-Optimisation/blob/main/Hypersonic%20Inlet%20-%201%20Parameter/rho-plot.png)
