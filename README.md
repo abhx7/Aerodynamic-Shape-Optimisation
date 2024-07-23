@@ -39,6 +39,7 @@ flowstate1=FlowState:new{p=[pressure], T=[temperature], velx=[velocity in x dire
 > [!NOTE]
 > Substitute the values for the quantities without the brackets.
 
+
 To define the flow domain, first establish all the points in the geometry. 
 ```
 pnts = {
@@ -48,6 +49,7 @@ pnts = {
 ...
 }
 ```
+
 Then connect this points appropriately using straight lines or curve lines to create the surface of the bodies as well as the boundary domain. If this was a 3D case, we would define surfaces for the bodies and the boundary. 
 Group together lines to create blocks that will be used for generating "patches" which Eilmer can interpret to create the required mesh.
 ```
@@ -63,6 +65,7 @@ patches[0] = AOPatch:new{north=lines.n0, south=lines.s0,
 ```
 We can also define physical groups to organize certains geometry elements based on the setup description like inlet, walls and farfield. 
 
+#### Mesh
 Next, we move on to creating structured meshed from the patches.
 ```
 grids = {}
@@ -75,6 +78,7 @@ grids[1] = StructuredGrid:new{psurface=patches[1],
 > niv and nij are the number of elements along each direction.
 > nik is also used for 3D cases
 > Eilmer supports unstructured meshes as well. Check the documentation.
+
 
 Initialise the flow solution blocks.
 ```
@@ -91,12 +95,17 @@ connectBlocks(blks[0], 'east', blks[1], 'west')
 ```
 > [!WARNING]
 > Make sure all the points, line and surfaces are defined correctly as well as the blocks are connected as in your required setup.
+> 
 > Any tiny errors here will cause the meshing to not happen, solver to not converge or other issues may crop up.
+
+
 
 The boundary conditions are set based on the setup either individually or can be set together using a dictionary for the physical groups defined.
 ```
 blks[0].bcList[west] = InFlowBC_Supersonic:new{flowCondition=FlowState:new{...}}
 ```
+
+
 
 There is a seperate lua file included in the repo to output the svg file of the current iteration and is executed using the following command.
 ```
