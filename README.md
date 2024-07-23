@@ -7,7 +7,7 @@ The example case is replicating the setup in the paper [Shape optimization of a 
 We will be using [Eilmer](https://github.com/gdtk-uq/gdtk?tab=readme-ov-file) a well known hypersonic CFD solver to simulate the flow and PSQP from [PyOptsparse](https://github.com/mdolab/pyoptsparse/blob/main/README.md) to run the optimisation cycles. Make sure to install the prerequisites software (especialy the LLVM compiler) for Eilmer from gdtk documentation before installing it.
 
 ## Optimisation Cycle 
-There are 2 basic iterative steps in any optimisation cycle:
+There are 2 basic iterative steps in any shape optimisation cycle:
 * Flow Simulation
 * Objective evaluation and Parameter Update
 
