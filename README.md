@@ -53,7 +53,13 @@ pnts = {
 ```
 
 
-Then connect this points appropriately using straight lines or curve lines to create the surface of the bodies as well as the boundary domain. If this was a 3D case, we would define surfaces for the bodies and the boundary. 
+Then connect this points appropriately using straight lines or curve lines like BSpline or Bezier curves to create the surface of the bodies as well as the boundary domain. A line can be deinfed like this.
+```
+ramp1 = Line:new{p0=pnts.i1,p1=pnts.r1}
+```
+
+
+If this was a 3D case, we would define surfaces for the bodies and the boundary. 
 Group together lines to create blocks that will be used for generating "patches" which Eilmer can interpret to create the required mesh. For example,
 ```
 lines = {}
