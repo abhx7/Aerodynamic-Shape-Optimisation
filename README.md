@@ -22,7 +22,7 @@ In the example case, the optimisation is run through a python script and the wor
    - Output results of flow simulation
    - Post processing to retreive data
 3. Evaluate the objective function and update the parameters accordingly
-4. Repeat step to till a user defined maximum number of optimisation iterations
+4. Repeat step 2 and 3 to till a user defined maximum number of optimisation iterations
 
 
 ### Geometry Creation and Mesh Generation
