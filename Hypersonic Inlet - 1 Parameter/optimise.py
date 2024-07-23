@@ -129,6 +129,5 @@ if 1:
 
 	sol=psqp(optProb, sens="FD", storeHistory='psqp_hist.hst')
 	print(sol)
-	print("optimised params from paper: ",[0.3615196, 0.0422752, 0.35])
 
 
