@@ -2,9 +2,24 @@
 This repository contains an example case for shape optimisation using Eilmer as the CFD solver and the python package pyOptsparse for the optimisation process. The flow simulation results and meshes of the final optimisation cycle, lua files for geometry generation and flow configurations as well as domain sketches is included.
 
 ### Prerequisites
-We will be using [Eilmer](https://github.com/gdtk-uq/gdtk?tab=readme-ov-file) a well known hypersonic CFD solver to simulate the flow and PSQP from [PyOptsparse](https://github.com/mdolab/pyoptsparse/blob/main/README.md) to run the optimisation cycles. Make sure to install the prerequisites software for Eilmer from gdtk before installing it.
+We will be using [Eilmer](https://github.com/gdtk-uq/gdtk?tab=readme-ov-file) a well known hypersonic CFD solver to simulate the flow and PSQP from [PyOptsparse](https://github.com/mdolab/pyoptsparse/blob/main/README.md) to run the optimisation cycles. Make sure to install the prerequisites software (especialy the LLVM compiler) for Eilmer from gdtk documentation before installing it.
 
 ## Optimisation Cycle 
+There are 2 basic iterative steps in any optimisation cycle:
+* Flow Simulation
+* Objective evaluation and Parameter Update
+This loop is repeated for a maximum number of evaluations or till the objective value falls below a threshold.
+
+In the example case, the optimisation is run through a python script and the workflow is as follows:
+1. Initialise the parameters
+2. Executes the commands to prepare the lua files for
+   - Geometry Creation and Mesh Generation
+   - Solver Configuration and Sketch Domain
+   - Output results of flow simulation
+   - Post processing to retreive data
+3. Evaluate the objective function and update the parameters accordingly
+4. Repeat step to till a user defined maximum number of optimisation iterations
+
 
 ### Geometry Creation and Mesh Generation
 
