@@ -79,7 +79,7 @@ def objfunc(params):
         p0_inf = sum(data[:,19])/n #sum or max
         print("\np_total=", p0_inf, "total_pressure_ratio=", p0_inl/p0_inf)
         obj= 1 - (p0_inl/p0_inf)
-        funcs["obj"] = 1 - (p0_inl/p0_inf)
+        funcs["obj"] = abs(obj)
 	#space out all the outputs so everything is understandable when running
         print("\nparameters = ", params, "\nobj = ", obj)
         fail = False
@@ -110,7 +110,7 @@ if 1:
 	optProb = Optimization("Shape Optimisation - Hypersonic Inlet", objfunc)
 
 	# Design Variables
-	optProb.addVarGroup("var", 2, lower=[0.0, 0.03], upper=[1.05, 0.06], value=params)
+	optProb.addVarGroup("var", 2, lower=[0.0, 0.0], upper=[1.05, 0.15], value=params)
 
 	# Objective
 	optProb.addObj("obj")
@@ -133,6 +133,6 @@ if 1:
 
 	sol=psqp(optProb, sens="FD", storeHistory='psqp_hist.hst')
 	print(sol)
-	print("Optimised parameters from paper: ",[0.3615196, 0.0422752])
+	
 
 

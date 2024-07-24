@@ -406,9 +406,9 @@
         ]
     },
     "boundary_north": {"label": "", 
-        "type": "wall_no_slip_adiabatic", 
+        "type": "wall_with_slip", 
         "group": "", 
-        "is_wall_with_viscous_effects": true, 
+        "is_wall_with_viscous_effects": false, 
         "ghost_cell_data_available": true, 
         "convective_flux_computed_in_bc": false, 
         "is_design_surface": false, 
@@ -421,7 +421,7 @@
 
         ],
         "pre_spatial_deriv_action_at_bndry_faces": [
-          {"type" : "copy_cell_data"},          {"type" : "zero_slip_wall_velocity"}
+          {"type" : "copy_cell_data"}
         ],
         "pre_spatial_deriv_action_at_bndry_cells": [
 

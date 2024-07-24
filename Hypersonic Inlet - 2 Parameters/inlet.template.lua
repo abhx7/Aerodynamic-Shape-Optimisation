@@ -90,7 +90,7 @@ connectBlocks(blks[0], 'east', blks[1], 'west')
 blks[0].bcList[west] = InFlowBC_Supersonic:new{flowCondition=external_stream}
 blks[0].bcList[north] = InFlowBC_Supersonic:new{flowCondition=external_stream}
 blks[1].bcList[east] = OutFlowBC_Simple:new{}
-blks[1].bcList[north] = WallBC_NoSlip_Adiabatic:new{} 
+--blks[1].bcList[north] = WallBC_NoSlip_Adiabatic:new{} 
 blks[0].bcList[south] = WallBC_NoSlip_Adiabatic:new{}
 blks[1].bcList[south] = WallBC_NoSlip_Adiabatic:new{}
 
@@ -127,7 +127,7 @@ SteadyStateSolver{
    use_complex_matvec_eval = true,
    use_physicality_check = true,
    
-   number_total_steps = 5000,
+   number_total_steps = 10000,
    stop_on_relative_global_residual = 1.0e-12,
 
    -- Settings for FGMRES iterative solver

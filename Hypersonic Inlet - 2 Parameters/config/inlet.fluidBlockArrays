@@ -15,8 +15,8 @@ whichFluidBlockArrayLabel = {
 } -- end whichFluidBlockArrayLabel
 -- Dictionary of FluidBlocks
 fluidBlocksDict = {
- ["FluidBlock-0"]=0,
  ["FluidBlock-1"]=1,
+ ["FluidBlock-0"]=0,
 } -- end fluidBlocksDict
 function is_in_FluidBlockArray(blkId, label)
    -- Returns true if a block is in a particular FluidBlockArray.

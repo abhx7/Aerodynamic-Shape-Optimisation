@@ -19,8 +19,8 @@ print(external_stream,'\n')
 -- Remember that Eilmer length units are metres.
 
 --paramterised point
-r1x=0.5025023844423587
-r1y=0.04031915760804584
+r1x=0.5050390296030193
+r1y=0.030844730311907216
 Lc = 0.35
 
 ---inlet entry point
@@ -90,7 +90,7 @@ connectBlocks(blks[0], 'east', blks[1], 'west')
 blks[0].bcList[west] = InFlowBC_Supersonic:new{flowCondition=external_stream}
 blks[0].bcList[north] = InFlowBC_Supersonic:new{flowCondition=external_stream}
 blks[1].bcList[east] = OutFlowBC_Simple:new{}
-blks[1].bcList[north] = WallBC_NoSlip_Adiabatic:new{} 
+--blks[1].bcList[north] = WallBC_NoSlip_Adiabatic:new{} 
 blks[0].bcList[south] = WallBC_NoSlip_Adiabatic:new{}
 blks[1].bcList[south] = WallBC_NoSlip_Adiabatic:new{}
 
