@@ -17,14 +17,14 @@ This loop is repeated for a maximum number of evaluations or till the objective 
 In the example case, the optimisation is run through a python script and the workflow is as follows:
 1. Initialise the parameters
 2. Executes the commands to prepare the lua files from the template lua file for
-   - Geometry Creation and Mesh Generation
-   - Solver Configuration and Sketch Domain
+   - Geometry creation and Mesh generation
+   - Sketch Domain and Solver Configuration  
    - Output results of flow simulation
    - Post processing to retreive data
 3. Evaluate the objective function and update the parameters accordingly
 4. Repeat step 2 and 3 to till a user defined maximum number of optimisation iterations
 
-
+#
 ### Geometry Creation and Mesh Generation
 
 #### Geometry
@@ -52,7 +52,7 @@ pnts = {
        }
 ```
 
-#
+###
 These points can be connected using straight lines or curved lines like BSpline or Bezier curves. In this 2D case, it represents the surface of the bodies as well as the boundary domain. A line can be defined like this. 
 ```
 ramp1 = Line:new{p0=pnts.i1,p1=pnts.r1}
@@ -76,9 +76,10 @@ patches[0] = AOPatch:new{north=lines.n0, south=lines.s0,
 ```
 There are different sorts of patches available like CoonsPatch and AOPatch, each used depending on the kind of block.
 
-#
+###
 Physical groups can also be defined to organize certains geometry elements like lines, points or even 2D surfaces based on the setup description like inlet, walls and farfield. 
 
+#
 #### Mesh
 Structured meshes are created from the patches created.
 ```
@@ -128,6 +129,7 @@ There is a seperate lua file included in the repo to output the svg file of the 
 dofile("sketch-domain.lua")
 ```
 
+#
 ### Setting Configuration for Solver
 
 There is extensive [documentation](https://gdtk.uqcloud.net/docs/eilmer/eilmer-reference-manual/#_configuration_options) available for solver configurations to define the time-stepping, viscous effects, flux settings and output settings.
@@ -174,7 +176,7 @@ SteadyStateSolver{
    write_loads_count = 20,
 }
 ```
-
+#
 ### Optimiser
 The PSQP optimiser is used and variables are defined for the point coordinates along with their bounds. The objective function is defined for maximum pressure recovery at the inlet. The data is retrieved from the post processing files to evaluate the objective function. A simple **Finite Difference** method is used to generate the new parameters which are updated to start the next iteration. This process is repeated till the defined maximum number of evaluations is reached.
 ```
