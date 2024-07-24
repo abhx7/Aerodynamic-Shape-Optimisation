@@ -127,7 +127,7 @@ SteadyStateSolver{
    use_complex_matvec_eval = true,
    use_physicality_check = true,
    
-   number_total_steps = 5000,
+   number_total_steps = 10000,
    stop_on_relative_global_residual = 1.0e-12,
 
    -- Settings for FGMRES iterative solver

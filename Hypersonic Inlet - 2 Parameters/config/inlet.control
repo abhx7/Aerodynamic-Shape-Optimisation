@@ -39,7 +39,7 @@
    "use_complex_matvec_eval": true,
    "temporal_integration_mode": 0,
    "number_pre_steps": 10,
-   "number_total_steps": 5000,
+   "number_total_steps": 10000,
    "max_number_attempts": 3,
    "stop_on_relative_global_residual": 9.999999999999999799e-13,
    "stop_on_absolute_global_residual": 1.000000000000000020e-99,

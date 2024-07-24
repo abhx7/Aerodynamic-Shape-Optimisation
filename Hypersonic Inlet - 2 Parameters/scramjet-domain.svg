@@ -16,20 +16,20 @@
 <path d="M 47.24,377.95 L 55.61,377.44 L 63.97,376.93 L 72.33,376.42 L 80.69,375.91 L 89.05,375.40 L 97.41,374.89 L 105.77,374.38 L 114.13,373.87 L 122.49,373.36 L 130.85,372.85 L 139.21,372.34 L 147.58,371.83 L 155.94,371.31 L 164.30,370.80 L 172.53,369.36 L 180.71,367.57 L 188.89,365.78 L 197.08,363.99 L 205.26,362.20 L 213.44,360.41 L 221.63,358.62 L 229.81,356.83 L 237.99,355.04 L 246.18,353.26 L 254.36,351.47 L 262.54,349.68 L 270.73,347.89 L 278.91,346.10 L 287.09,344.31 L 295.28,342.52" style="fill:none;stroke:black;stroke-width:1.42;stroke-linecap:round;stroke-opacity:1"/>
 <path d="M 295.28,342.52 L 296.85,342.52 L 298.43,342.52 L 300.00,342.52 L 301.57,342.52 L 303.15,342.52 L 304.72,342.52 L 306.30,342.52 L 307.87,342.52 L 309.45,342.52 L 311.02,342.52 L 312.60,342.52 L 314.17,342.52 L 315.75,342.52 L 317.32,342.52 L 318.90,342.52 L 320.47,342.52 L 322.05,342.52 L 323.62,342.52 L 325.20,342.52 L 326.77,342.52 L 328.35,342.52 L 329.92,342.52 L 331.50,342.52 L 333.07,342.52 L 334.65,342.52 L 336.22,342.52 L 337.80,342.52 L 339.37,342.52 L 340.94,342.52 L 342.52,342.52" style="fill:none;stroke:black;stroke-width:1.42;stroke-linecap:round;stroke-opacity:1"/>
 <path d="M 259.84,330.71 L 262.60,330.71 L 265.35,330.71 L 268.11,330.71 L 270.87,330.71 L 273.62,330.71 L 276.38,330.71 L 279.13,330.71 L 281.89,330.71 L 284.65,330.71 L 287.40,330.71 L 290.16,330.71 L 292.91,330.71 L 295.67,330.71 L 298.43,330.71 L 301.18,330.71 L 303.94,330.71 L 306.69,330.71 L 309.45,330.71 L 312.20,330.71 L 314.96,330.71 L 317.72,330.71 L 320.47,330.71 L 323.23,330.71 L 325.98,330.71 L 328.74,330.71 L 331.50,330.71 L 334.25,330.71 L 337.01,330.71 L 339.76,330.71 L 342.52,330.71" style="fill:none;stroke:black;stroke-width:1.42;stroke-linecap:round;stroke-opacity:1"/>
-<circle cx="295.28" cy="342.52" r="2.83" style="fill:black" />
-<text x="295.28" y="338.27" style="font-size:10pt;text-anchor:middle;fill:black;stroke:none;font-weight:normal;font-family:sanserif" >rn</text>
 <circle cx="47.24" cy="330.71" r="2.83" style="fill:black" />
 <text x="47.24" y="326.46" style="font-size:10pt;text-anchor:middle;fill:black;stroke:none;font-weight:normal;font-family:sanserif" >i2</text>
 <circle cx="47.24" cy="377.95" r="2.83" style="fill:black" />
 <text x="47.24" y="373.70" style="font-size:10pt;text-anchor:middle;fill:black;stroke:none;font-weight:normal;font-family:sanserif" >i1</text>
-<circle cx="342.52" cy="330.71" r="2.83" style="fill:black" />
-<text x="342.52" y="326.46" style="font-size:10pt;text-anchor:middle;fill:black;stroke:none;font-weight:normal;font-family:sanserif" >o2</text>
-<circle cx="342.52" cy="342.52" r="2.83" style="fill:black" />
-<text x="342.52" y="338.27" style="font-size:10pt;text-anchor:middle;fill:black;stroke:none;font-weight:normal;font-family:sanserif" >o1</text>
-<circle cx="259.84" cy="330.71" r="2.83" style="fill:black" />
-<text x="259.84" y="326.46" style="font-size:10pt;text-anchor:middle;fill:black;stroke:none;font-weight:normal;font-family:sanserif" >c</text>
 <circle cx="166.54" cy="370.67" r="2.83" style="fill:black" />
 <text x="166.54" y="366.41" style="font-size:10pt;text-anchor:middle;fill:black;stroke:none;font-weight:normal;font-family:sanserif" >r1</text>
+<circle cx="342.52" cy="342.52" r="2.83" style="fill:black" />
+<text x="342.52" y="338.27" style="font-size:10pt;text-anchor:middle;fill:black;stroke:none;font-weight:normal;font-family:sanserif" >o1</text>
+<circle cx="295.28" cy="342.52" r="2.83" style="fill:black" />
+<text x="295.28" y="338.27" style="font-size:10pt;text-anchor:middle;fill:black;stroke:none;font-weight:normal;font-family:sanserif" >rn</text>
+<circle cx="259.84" cy="330.71" r="2.83" style="fill:black" />
+<text x="259.84" y="326.46" style="font-size:10pt;text-anchor:middle;fill:black;stroke:none;font-weight:normal;font-family:sanserif" >c</text>
+<circle cx="342.52" cy="330.71" r="2.83" style="fill:black" />
+<text x="342.52" y="326.46" style="font-size:10pt;text-anchor:middle;fill:black;stroke:none;font-weight:normal;font-family:sanserif" >o2</text>
 <g opacity="1" >
 <line x1="47.24" y1="382.68" x2="401.57" y2="382.68" style="fill:none;stroke:black;stroke-width:0.85;stroke-linecap:round;stroke-opacity:1" />
 <line x1="47.24" y1="382.68" x2="47.24" y2="389.76" style="fill:none;stroke:black;stroke-width:0.85;stroke-linecap:round;stroke-opacity:1" />
