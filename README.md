@@ -41,7 +41,7 @@ flowstate1=FlowState:new{p=[pressure], T=[temperature], velx=[velocity in x dire
 > [!NOTE]
 > Substitute the values for the quantities without the brackets.
 
-
+#
 To define the flow domain, first establish all the points in the geometry. 
 ```
 pnts = {
@@ -51,15 +51,18 @@ pnts = {
 ...
        }
 ```
+
 #
-These points can this points appropriately using straight lines or curve lines like BSpline or Bezier curves to create the surface of the bodies as well as the boundary domain. A line can be defined like this.
+These points can be connected using straight lines or curved lines like BSpline or Bezier curves. In this 2D case, it represents the surface of the bodies as well as the boundary domain. A line can be defined like this. 
 ```
 ramp1 = Line:new{p0=pnts.i1,p1=pnts.r1}
 ```
-
+Similarly, the documentation is available for the other kinds of lines.
 
 If this was a 3D case, we would define surfaces for the bodies and the boundary. 
-Group together lines to create blocks that will be used for generating "patches" which Eilmer can interpret to create the required mesh. For example,
+
+#
+The lines are grouped together to create blocks that will be used for generating "patches" which Eilmer can interpret to create the required mesh. For example,
 ```
 lines = {}
 patches = {}
@@ -71,10 +74,13 @@ lines.e0 = Line:new{p0=pnts.rn, p1=pnts.c}
 patches[0] = AOPatch:new{north=lines.n0, south=lines.s0,
                          west=lines.w0, east=lines.e0}
 ```
-Physical groups can also be defined to organize certains geometry elements based on the setup description like inlet, walls and farfield. 
+There are different sorts of patches available like CoonsPatch and AOPatch, each used depending on the kind of block.
+
+#
+Physical groups can also be defined to organize certains geometry elements like lines, points or even 2D surfaces based on the setup description like inlet, walls and farfield. 
 
 #### Mesh
-Next, structured meshes are created from the patches like this.
+Structured meshes are created from the patches created.
 ```
 grids = {}
 grids[0] = StructuredGrid:new{psurface=patches[0],
@@ -89,8 +95,8 @@ grids[1] = StructuredGrid:new{psurface=patches[1],
 > 
 > Eilmer supports unstructured meshes as well. Check the documentation.
 
-
-Initialise each of the flow solution blocks.
+#
+Each of the flow solution blocks need to be initialised.
 ```
 -- Define the flow-solution blocks.
 blks = {}
@@ -104,17 +110,17 @@ We then define the block connections. For example,
 connectBlocks(blks[0], 'east', blks[1], 'west')
 ```
 > [!WARNING]
-> Make sure all the points, line and surfaces are defined correctly as well as the blocks are connected as in your required setup.
+> Make sure all the points, line and surfaces are defined correctly as well as the patches are created and blocks are connected correctly as in your required setup.
 > 
 > Any tiny errors here will cause the meshing to not happen, solver to not converge or other issues may crop up.
 
 
-
+#
 The boundary conditions are set based on the setup either individually or can be set together using a dictionary for the physical groups defined.
 ```
 blks[0].bcList[west] = InFlowBC_Supersonic:new{flowCondition=FlowState:new{...}}
 ```
-.
+#
 
 
 There is a seperate lua file included in the repo to output the svg file of the current iteration and is executed using the following command.
