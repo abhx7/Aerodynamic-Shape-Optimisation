@@ -51,8 +51,7 @@ pnts = {
 ...
        }
 ```
-## 
-
+#
 These points can this points appropriately using straight lines or curve lines like BSpline or Bezier curves to create the surface of the bodies as well as the boundary domain. A line can be defined like this.
 ```
 ramp1 = Line:new{p0=pnts.i1,p1=pnts.r1}
