@@ -187,4 +187,8 @@ print(sol)
 A sample case for setting up the optimiser is available in [PyOptsparse documentation](https://mdolab-pyoptsparse.readthedocs-hosted.com/en/latest/quickstart.html)
 
 ## Final Result
-![Final Optimised Inlet](https://github.com/abhx7/Aerodynamic-Shape-Optimisation/blob/main/Hypersonic%20Inlet%20-%201%20Parameter/rho-plot.png)
+Before Optimisation:
+![Original Inlet](https://github.com/abhx7/Aerodynamic-Shape-Optimisation/blob/main/Hypersonic%20Inlet%20-%202%20Parameters/rho-plot-initial.png)
+
+After Optimisation
+![Final Optimised Inlet](https://github.com/abhx7/Aerodynamic-Shape-Optimisation/blob/main/Hypersonic%20Inlet%20-%201%20Parameter/rho-plot-opt.png)
