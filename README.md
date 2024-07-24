@@ -116,14 +116,15 @@ connectBlocks(blks[0], 'east', blks[1], 'west')
 > Any tiny errors here will cause the meshing to not happen, solver to not converge or other issues may crop up.
 
 
-#
+###
 The boundary conditions are set based on the setup either individually or can be set together using a dictionary for the physical groups defined.
 ```
 blks[0].bcList[west] = InFlowBC_Supersonic:new{flowCondition=FlowState:new{...}}
 ```
+
+
+###
 #
-
-
 There is a seperate lua file included in the repo to output the svg file of the current iteration and is executed using the following command.
 ```
 dofile("sketch-domain.lua")
