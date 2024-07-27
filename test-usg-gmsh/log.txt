@@ -1,0 +1,125 @@
+Eilmer 4.0 compressible-flow simulation code -- using Newton-Krylov accelerator.
+Revision-id: fbbcf426
+Revision-date: Wed Jun 26 20:20:18 2024 +1000
+Compiler-name: ldc2
+Build-date: Thursday 27 June 2024 12:54:43 PM IST
+Build-flavour: fast
+Parallelism: Distributed memory with message passing (MPI), number of tasks 8
+Initialising simulation from snapshot: 0
+MPI-task with rank 1 has no FluidBlocks. Quitting.
+MPI-task with rank 2 has no FluidBlocks. Quitting.
+MPI-task with rank 3 has no FluidBlocks. Quitting.
+MPI-task with rank 4 has no FluidBlocks. Quitting.
+MPI-task with rank 5 has no FluidBlocks. Quitting.
+MPI-task with rank 6 has no FluidBlocks. Quitting.
+MPI-task with rank 7 has no FluidBlocks. Quitting.
+Eilmer 4.0 compressible-flow simulation code -- using Newton-Krylov accelerator.
+Revision-id: fbbcf426
+Revision-date: Wed Jun 26 20:20:18 2024 +1000
+Compiler-name: ldc2
+Build-date: Thursday 27 June 2024 12:54:43 PM IST
+Build-flavour: fast
+Parallelism: Distributed memory with message passing (MPI), number of tasks 8
+Initialising simulation from snapshot: 0
+Eilmer 4.0 compressible-flow simulation code -- using Newton-Krylov accelerator.
+Revision-id: fbbcf426
+Revision-date: Wed Jun 26 20:20:18 2024 +1000
+Compiler-name: ldc2
+Build-date: Thursday 27 June 2024 12:54:43 PM IST
+Build-flavour: fast
+Parallelism: Distributed memory with message passing (MPI), number of tasks 8
+Initialising simulation from snapshot: 0
+Eilmer 4.0 compressible-flow simulation code -- using Newton-Krylov accelerator.
+Revision-id: fbbcf426
+Revision-date: Wed Jun 26 20:20:18 2024 +1000
+Compiler-name: ldc2
+Build-date: Thursday 27 June 2024 12:54:43 PM IST
+Build-flavour: fast
+Parallelism: Distributed memory with message passing (MPI), number of tasks 8
+Initialising simulation from snapshot: 0
+Eilmer 4.0 compressible-flow simulation code -- using Newton-Krylov accelerator.
+Revision-id: fbbcf426
+Revision-date: Wed Jun 26 20:20:18 2024 +1000
+Compiler-name: ldc2
+Build-date: Thursday 27 June 2024 12:54:43 PM IST
+Build-flavour: fast
+Parallelism: Distributed memory with message passing (MPI), number of tasks 8
+Initialising simulation from snapshot: 0
+Eilmer 4.0 compressible-flow simulation code -- using Newton-Krylov accelerator.
+Revision-id: fbbcf426
+Revision-date: Wed Jun 26 20:20:18 2024 +1000
+Compiler-name: ldc2
+Build-date: Thursday 27 June 2024 12:54:43 PM IST
+Build-flavour: fast
+Parallelism: Distributed memory with message passing (MPI), number of tasks 8
+Initialising simulation from snapshot: 0
+Eilmer 4.0 compressible-flow simulation code -- using Newton-Krylov accelerator.
+Revision-id: fbbcf426
+Revision-date: Wed Jun 26 20:20:18 2024 +1000
+Compiler-name: ldc2
+Build-date: Thursday 27 June 2024 12:54:43 PM IST
+Build-flavour: fast
+Parallelism: Distributed memory with message passing (MPI), number of tasks 8
+Initialising simulation from snapshot: 0
+Eilmer 4.0 compressible-flow simulation code -- using Newton-Krylov accelerator.
+Revision-id: fbbcf426
+Revision-date: Wed Jun 26 20:20:18 2024 +1000
+Compiler-name: ldc2
+Build-date: Thursday 27 June 2024 12:54:43 PM IST
+Build-flavour: fast
+Parallelism: Distributed memory with message passing (MPI), number of tasks 8
+Initialising simulation from snapshot: 0
+Eilmer 4.0 compressible-flow simulation code -- using Newton-Krylov accelerator.
+Revision-id: fbbcf426
+Revision-date: Wed Jun 26 20:20:18 2024 +1000
+Compiler-name: ldc2
+Build-date: Thursday 27 June 2024 12:54:43 PM IST
+Build-flavour: fast
+Parallelism: Distributed memory with message passing (MPI), number of tasks 8
+Initialising simulation from snapshot: 0
+Eilmer 4.0 compressible-flow simulation code -- using Newton-Krylov accelerator.
+Revision-id: fbbcf426
+Revision-date: Wed Jun 26 20:20:18 2024 +1000
+Compiler-name: ldc2
+Build-date: Thursday 27 June 2024 12:54:43 PM IST
+Build-flavour: fast
+Parallelism: Distributed memory with message passing (MPI), number of tasks 8
+Initialising simulation from snapshot: 0
+Eilmer 4.0 compressible-flow simulation code -- using Newton-Krylov accelerator.
+Revision-id: fbbcf426
+Revision-date: Wed Jun 26 20:20:18 2024 +1000
+Compiler-name: ldc2
+Build-date: Thursday 27 June 2024 12:54:43 PM IST
+Build-flavour: fast
+Parallelism: Distributed memory with message passing (MPI), number of tasks 8
+Initialising simulation from snapshot: 0
+Eilmer 4.0 compressible-flow simulation code -- using Newton-Krylov accelerator.
+Revision-id: fbbcf426
+Revision-date: Wed Jun 26 20:20:18 2024 +1000
+Compiler-name: ldc2
+Build-date: Thursday 27 June 2024 12:54:43 PM IST
+Build-flavour: fast
+Parallelism: Distributed memory with message passing (MPI), number of tasks 8
+Initialising simulation from snapshot: 0
+Heap memory used: 8156 MB, unused: 1276 MB, total: 9432 MB (1163-1227 MB per task)
+Reference residuals are established as:
+GLOBAL:         5.823631710944e+11
+MASS:           4.760463568799e+04
+X-MOMENTUM:     1.799160974910e+07
+Y-MOMENTUM:     8.876899444753e+06
+ENERGY:         3.877766341059e+10
+Eilmer 4.0 compressible-flow simulation code -- using Newton-Krylov accelerator.
+Revision-id: fbbcf426
+Revision-date: Wed Jun 26 20:20:18 2024 +1000
+Compiler-name: ldc2
+Build-date: Thursday 27 June 2024 12:54:43 PM IST
+Build-flavour: fast
+Parallelism: Distributed memory with message passing (MPI), number of tasks 8
+Initialising simulation from snapshot: 0
+Heap memory used: 8156 MB, unused: 1212 MB, total: 9368 MB (1163-1227 MB per task)
+Reference residuals are established as:
+GLOBAL:         5.823631710944e+11
+MASS:           4.760463568799e+04
+X-MOMENTUM:     1.799160974910e+07
+Y-MOMENTUM:     8.876899444753e+06
+ENERGY:         3.877766341059e+10

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian">
+<Collection>
+<DataSet timestep="0.000000000000000000e+00" group="" part="0" file="inlet-b0000-t0000.vtu"/>
+<DataSet timestep="1.585397713812599196e+00" group="" part="0" file="inlet-b0000-t0001.vtu"/>
+<DataSet timestep="1.587064124101374318e+00" group="" part="0" file="inlet-b0000-t0002.vtu"/>
+<DataSet timestep="1.588828412950464619e+00" group="" part="0" file="inlet-b0000-t0003.vtu"/>
+<DataSet timestep="1.590490439469876893e+00" group="" part="0" file="inlet-b0000-t0004.vtu"/>
+<DataSet timestep="1.592225496327975165e+00" group="" part="0" file="inlet-b0000-t0005.vtu"/>
+<DataSet timestep="1.593929055635688430e+00" group="" part="0" file="inlet-b0000-t0006.vtu"/>
+<DataSet timestep="1.595629065411670267e+00" group="" part="0" file="inlet-b0000-t0007.vtu"/>
+<DataSet timestep="1.597376237579323899e+00" group="" part="0" file="inlet-b0000-t0008.vtu"/>
+<DataSet timestep="1.599047955785991348e+00" group="" part="0" file="inlet-b0000-t0009.vtu"/>
+<DataSet timestep="1.600817030486618275e+00" group="" part="0" file="inlet-b0000-t0010.vtu"/>
+</Collection>
+</VTKFile>
